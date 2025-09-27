@@ -21,7 +21,7 @@ class GarbageCollector2{
 		a2 = a1;
 		
 		System.gc();    // Request for GC
-		System.out.println(a1.x);
+		System.out.println(a3.x);
 		System.out.println("Null references are collected by finalize");
 	}
 }

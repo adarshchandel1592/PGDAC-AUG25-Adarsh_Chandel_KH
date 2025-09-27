@@ -14,7 +14,7 @@ class Que1{
 			System.out.println(i);
 		}
 		
-		list.remove("Priya");
+		list.remove(1);
 		System.out.println("Students: "+list);
 		
 	}

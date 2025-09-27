@@ -36,7 +36,7 @@ class Que8{
 		BankAccount b2 = new BankAccount("Priya", 15000.0);
 		
 		System.out.print("\nAccount1: Name="+b1.getName()+", Balance="+b1.getBalance()+", Interest Rate="+BankAccount.rate+"%");
-		System.out.print("\nAccount2: Name="+b1.getName()+", Balance="+b1.getBalance()+", Interest Rate="+BankAccount.rate+"%");
+		System.out.print("\nAccount2: Name="+b2.getName()+", Balance="+b1.getBalance()+", Interest Rate="+BankAccount.rate+"%");
 		System.out.println();
 	}
 }

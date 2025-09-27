@@ -1,12 +1,13 @@
 class Passenger{
 	String name;
-	String seatType = "General";
+	String seatType;
 	int age;
 	static int counter;
 	
 	Passenger(String passname, int passage){
 		this.name = passname;
 		this.age = passage;
+		this.seatType = "General";
 		counter++;
 	}
 	

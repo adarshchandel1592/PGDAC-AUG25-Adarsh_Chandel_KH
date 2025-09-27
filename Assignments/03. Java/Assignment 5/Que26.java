@@ -24,9 +24,11 @@ class Que26 {
         emp.add(new Employee("Priya", 60000));
 
         System.out.print("\nEmployee List: ");
-        for (Employee i : emp) {
-            System.out.print(i+" ");
+        Iterator<Employee> itr = emp.iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        
         }
-		System.out.println();
     }
+
 }

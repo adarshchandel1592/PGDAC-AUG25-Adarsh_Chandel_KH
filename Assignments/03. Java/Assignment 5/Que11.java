@@ -14,7 +14,10 @@ public class Que11 {
         System.out.print("\nGrade Report: ");
         Iterator<Map.Entry<String, Integer>> itr = mp.entrySet().iterator();
         while(itr.hasNext()){
-            System.out.print(itr.next()+" ");
+            System.out.print(itr.next()+"");
+            if(itr.hasNext()){
+                System.out.print(", ");
+            }
         }
         System.out.println();
     }

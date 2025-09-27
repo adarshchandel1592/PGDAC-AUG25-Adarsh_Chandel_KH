@@ -34,9 +34,9 @@ class Student{
 	}
 	
 	public void printStudentDetails() {
-        System.out.print("\nRoll No: " + this.rollno);
-        System.out.print("\nName: " + this.name);
-        System.out.print("\nMarks: " + this.marks);
+        System.out.print("\nRoll No: " + this.rollno+", Name: " 
+		+ this.name+", Marks: " 
+		+ this.marks);
     }
 }
 

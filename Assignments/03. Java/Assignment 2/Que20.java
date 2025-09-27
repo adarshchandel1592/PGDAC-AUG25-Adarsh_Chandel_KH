@@ -4,9 +4,8 @@
 	static int ticketcounter = 5001;
 	
 	Ticket(String name){
-		this.ticketNo=ticketcounter;
+		this.ticketNo=ticketcounter++;
 		this.passengerName=name;
-		ticketcounter++;
 	}
 	
 	public String getNamw(){

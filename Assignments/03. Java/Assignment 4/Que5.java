@@ -20,11 +20,13 @@ class Que5{
 			double product_price = array_products[product_index];
 			try{
 				
-				// if(quantity == 0){
-					// throw new ArithmeticException();
-				// }
+				if(quantity == 0){
+					throw new ArithmeticException();
+				}
+				else{
+					System.out.println("Total Price: "+product_price * quantity);
+				}
 				
-				System.out.println("Total Price: "+product_price * quantity);
 			}catch(ArithmeticException e){
 				System.out.println("Arithmetic Exception Caught");
 			}
